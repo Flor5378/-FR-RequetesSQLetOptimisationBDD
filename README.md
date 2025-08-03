@@ -43,6 +43,8 @@ Un script Python a été développé pour :
 - Sauvegarder des versions "corrected" des CSV
 - Limiter les noms de colonnes à 64 caractères (limite MySQL)
 - Charger les données dans une base MySQL via `pandas.to_sql()` et `sqlalchemy.create_engine()`
+- Si vous voulez reproduire tout le processus de production des tables et corrections des CSV, vous devez changer le nom des chemins des csv appelés.
+
 
 #### 2.2 Script SQL
 
