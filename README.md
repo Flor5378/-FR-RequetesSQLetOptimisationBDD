@@ -68,8 +68,6 @@ CREATE TABLE Departement (
 
 ---
 
-## 📈 3. Résultats
-
 ### 3.1 Analyse SQL & Visualisation
 
 #### 💾 Exemple de requête SQL
@@ -81,6 +79,7 @@ FROM Commune c
 JOIN Population p ON c.CODGEO = p.CODGEO
 ORDER BY Evolution DESC
 LIMIT 10;
+
 ```
 
 ### 3.2 🔍 Limites et Contraintes
